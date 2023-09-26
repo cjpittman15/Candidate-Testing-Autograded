@@ -27,10 +27,10 @@ function askQuestion() {
 //candidateAnswer = input.question(question);
 
 for (let i = 0; i < questions.length; i++) {
-  console.log(candidateAnswers.push(input.question(questions[i])));
+  candidateAnswers.push(input.question(questions[i]));
  
 }
-
+console.log(candidateAnswers);
 }
 
 
